@@ -30,5 +30,5 @@ def PDF_Scraper(PDF_URL):
 
     return PDF_metadata, PDF_content
 
-for i in range(2, 11):
+for i in range(1, 11):
     PageScraper("https://www.consilium.europa.eu/register/en/content/out?document_date_from_date=&DOC_ID=&CONTENTS=&DOC_TITLE=&meeting_date_single_date=&DOC_SUBJECT=CONCL&meeting_date_to_date=&MEET_DATE=&document_date_to_date=&i=ADV&document_date_single_comparator=&DOS_INTERINST=&ROWSPP=25&document_date_single_date=&ORDERBY=DOC_DATE+DESC&DOC_LANCD=EN&meeting_date_single_comparator=&DOC_DATE=&typ=SET&NRROWS=500&meeting_date_from_date=&RESULTSET={i}".format(i = i))
